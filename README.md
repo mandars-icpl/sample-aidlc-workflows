@@ -9,9 +9,9 @@ An intelligent software development workflow that adapts to your needs, maintain
 AI-DLC uses [Amazon Q Rules](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/context-project-rules.html) to implement its intelligent workflow. To activate AI-DLC in your project, copy the rules to your project's *project-root*/.amazonq/ folder.
 
 ```bash
-git clone <repo url for aidlc-workflows>
+git clone https://github.com/aws-samples/sample-aidlc-workflows.git
 cd my-project
-cp -R ../aidlc-workflows/amazonq .amazonq
+cp -R ../sample-aidlc-workflows/amazonq .amazonq
 ```
 
 To confirm that the Amazon Q Rules are correctly loaded in your IDE, follow these steps:
